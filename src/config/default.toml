@@ -1,0 +1,14 @@
+[server]
+host = "127.0.0.1"
+port = 8080
+max_players = 1000
+tick_rate = 60
+
+[game.world]
+name = "Aethelgard"
+max_players_per_zone = 100
+save_interval = 300
+
+[logging]
+level = "info"
+format = "json"
